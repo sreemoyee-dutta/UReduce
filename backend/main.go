@@ -12,7 +12,11 @@ import (
 	"os"
 	"time"
 
+main
 	//"github.com/joho/godotenv"
+
+	"github.com/joho/godotenv"
+main
 	_ "github.com/lib/pq"
 )
 
@@ -27,7 +31,11 @@ var db *sql.DB
 
 func initDB() {
 	// Load environment variables from .env file (ignore error if not found)
+main
 	//_ = godotenv.Load()
+
+	_ = godotenv.Load()
+main
 
 	// Connect to the database using environment variables
 	connStr := fmt.Sprintf(

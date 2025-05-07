@@ -8,7 +8,10 @@ export default defineConfig({
     tailwindcss(),
   ],
   server: {
+main
     allowedHosts: ['urdc.onrender.com'],
+
+main
     host: "::",
     port: 3000,
   },
